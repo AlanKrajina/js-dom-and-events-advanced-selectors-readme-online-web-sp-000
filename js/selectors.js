@@ -8,13 +8,14 @@ function lastImageSelector (){
 }
 
 function ninjaBabySelector (){
-
+  return $('#baby-ninja');
 }
 
 function divSelector (){
-
+  return $('.pics');
 }
 
 function firstListItem (){
+  $('.pics pic-list:first-child');
 
 }
